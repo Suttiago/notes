@@ -15,6 +15,6 @@ class AuthController extends Controller
     }
 
     public function loginSubmit(Request $request){
-        echo "login Submit";
+        dd($request);
     }
 }
