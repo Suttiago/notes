@@ -15,7 +15,6 @@ class AuthController extends Controller
     }
 
     public function loginSubmit(Request $request){
-<<<<<<< HEAD
         //validacao de usuario
         $request->validate(
             [
@@ -28,8 +27,5 @@ class AuthController extends Controller
     
         $password_= $request->input("text_password");
         echo 'ok';
-=======
-        dd($request);
->>>>>>> 77b91e136038d1eb93173262d8bd9f627229c423
     }
 }
